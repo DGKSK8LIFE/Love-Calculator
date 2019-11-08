@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Love Calculator</title>
+</head>
+
+<body>
+    <h1 style='text-align: center;'>Love Calculator</h1>
+    <form class="lul">
+        <input class="boy" type="text" name="firstname" placeholder="name">
+        <br>
+        <br>
+        <input class="girl" type="text" name="secondname" placeholder="name">
+        <br>
+        <br>
+        <button onclick="calculateLove()">Calculate Love</button>
+    </form>
+</body>
+<script>
+    function calculateLove() {
+        alert(Math.floor(Math.random() * 100) + "%");
+    }
+</script>
+
+</html>
